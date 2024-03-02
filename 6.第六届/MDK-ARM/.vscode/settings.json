@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "led.h": "c",
+        "gpio.h": "c",
+        "tim.h": "c",
+        "key.h": "c",
+        "lcd.h": "c",
+        "interrupt.h": "c",
+        "main.h": "c",
+        "badc.h": "c",
+        "usart.h": "c",
+        "pwm.h": "c",
+        "rtc.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
