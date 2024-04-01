@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        "led.h": "c",
+        "gpio.h": "c",
+        "tim.h": "c",
+        "key.h": "c",
+        "lcd.h": "c",
+        "interrupt.h": "c",
+        "main.h": "c",
+        "badc.h": "c",
+        "usart.h": "c",
+        "pwm.h": "c",
+        "rtc.h": "c",
+        "seg_led.h": "c",
+        "adc.h": "c",
+        "adc_key.h": "c",
+        "stm32g4xx.h": "c",
+        "explore_ban.h": "c",
+        "stdio.h": "c",
+        "string.h": "c",
+        "ds18b20.h": "c",
+        "fonts.h": "c",
+        "i2c - hal.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
