@@ -71,6 +71,7 @@ char dateTimeBuffer[50]; // 存储日期时间字符串
 
 // const char *Volt_Level_String[3] = {"Lower", "Nomal", "Upper"}; // 使用指针数组  这样定义的字符串数组无法改变其内容
 // char Password[1][3] = {{'1', '2', '3'}}; //二维数组定义
+// char Buff[2][4] = {"123","456"};
 
 // typedef struct
 // {
@@ -293,7 +294,9 @@ void LED_Proc(void)
     return;
   uwTick_LED_Speed_Ctrl = uwTick; // 200ms执行一次
 
-  // ucLED ^= 0x01;  //异或运算 相同为0，不同为1
+  // ucLED ^= 0x01;  //异或运算 相同为0，不同为1 LED闪烁
+  // ucLED |= 0x01;  //点亮LED
+  // ucLED &= ~0x01; //熄灭LED
 
   LED_Disp(ucLED);
 }
