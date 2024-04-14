@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "limits": "c",
+        "memory": "c",
+        "ostream": "c",
+        "sstream": "c",
+        "string": "c",
+        "array": "c",
+        "*.tcc": "c",
+        "vector": "c",
+        "string_view": "c",
+        "functional": "c",
+        "istream": "c",
+        "streambuf": "c"
+    }
+}
